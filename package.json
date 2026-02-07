@@ -1,21 +1,14 @@
 {
   "name": "echoapp",
   "version": "1.0.0",
-  "description": "Echo App",
+  "description": "Echo Server for CSC3916 Assignment 1",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha --timeout 10000 --exit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shawnmccarthy/week3.git"
-  },
-  "author": "Shawn McCarthy",
+  "author": "Sam Fredrick",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shawnmccarthy/week3/issues"
-  },
-  "homepage": "https://github.com/shawnmccarthy/week3#readme",
   "devDependencies": {
     "chai": "^4.3.7",
     "chai-http": "^4.4.0",
